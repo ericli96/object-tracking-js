@@ -36,7 +36,6 @@
     "rollup-plugin-uglify": "^6.0.3"
   },
   "scripts": {
-    "prepare": "npm run build",
     "deploy": "yarn build && rollup -c && yarn publish --access public"
   },
   "files": [
