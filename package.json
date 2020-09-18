@@ -1,5 +1,5 @@
 {
-  "name": "@cloud-annotations/object-tracking-test",
+  "name": "@ericli96/object-tracking-test",
   "version": "0.0.5",
   "description": "Simple object tracking in js",
   "jsdelivr": "dist/object-tracking.min.js",
@@ -11,12 +11,12 @@
   "main": "dist/object-tracking.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cloud-annotations/object-tracking-js.git"
+    "url": "https://github.com/ericli96/object-tracking-js.git"
   },
   "bugs": {
-    "url": "https://github.com/cloud-annotations/object-tracking-js/issues"
+    "url": "https://github.com/ericli96/object-tracking-js/issues"
   },
-  "homepage": "https://github.com/cloud-annotations/object-tracking-js",
+  "homepage": "https://github.com/ericli96/object-tracking-js",
   "author": "Nick Bourdakos",
   "license": "MIT",
   "dependencies": {
