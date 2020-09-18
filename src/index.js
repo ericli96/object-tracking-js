@@ -2,7 +2,7 @@ import * as tf from '@tensorflow/tfjs'
 import * as np from './math-util'
 tf.enableProdMode()
 
-const SIGMA = 100
+const SIGMA = 10
 const LEARNING_RATE = 0.125
 
 const clamp = (x, lower, upper) => Math.max(lower, Math.min(x, upper))
