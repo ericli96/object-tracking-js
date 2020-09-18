@@ -36,9 +36,7 @@
     "rollup-plugin-uglify": "^6.0.3"
   },
   "scripts": {
-    "deploy": "yarn build && rollup -c && yarn publish --access public",
-    "build": "rimraf dist",
-    "prepare": "npm run build"
+    "deploy": "yarn build && rollup -c && yarn publish --access public"
   },
   "files": [
     "/dist"
