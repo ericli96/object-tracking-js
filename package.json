@@ -1,5 +1,5 @@
 {
-  "name": "@cloud-annotations/object-tracking",
+  "name": "@cloud-annotations/object-tracking-test",
   "version": "0.0.5",
   "description": "Simple object tracking in js",
   "jsdelivr": "dist/object-tracking.min.js",
