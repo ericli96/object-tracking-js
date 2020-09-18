@@ -37,6 +37,7 @@
   },
   "scripts": {
     "deploy": "yarn build && rollup -c && yarn publish --access public",
+    "build": "rimraf dist",
     "prepare": "npm run build"
   },
   "files": [
