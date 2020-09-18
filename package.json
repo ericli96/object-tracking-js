@@ -11,10 +11,10 @@
   "main": "dist/object-tracking.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ericli96/object-tracking-js.git"
+    "url": "https://github.com/cloud-annotations/object-tracking-js.git"
   },
   "bugs": {
-    "url": "https://github.com/ericli96/object-tracking-js/issues"
+    "url": "https://github.com/cloud-annotations/object-tracking-js/issues"
   },
   "homepage": "https://github.com/ericli96/object-tracking-js",
   "author": "Nick Bourdakos",
@@ -36,6 +36,7 @@
     "rollup-plugin-uglify": "^6.0.3"
   },
   "scripts": {
+    "build": "rimraf dist",
     "deploy": "yarn build && rollup -c && yarn publish --access public"
   },
   "files": [
