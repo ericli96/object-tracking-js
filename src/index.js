@@ -2,7 +2,6 @@ import * as tf from '@tensorflow/tfjs'
 import * as np from './math-util'
 tf.enableProdMode()
 
-const SIGMA = 10
 const LEARNING_RATE = 0.125
 
 const clamp = (x, lower, upper) => Math.max(lower, Math.min(x, upper))
@@ -18,6 +17,8 @@ export default {
 
       // Create gaussian blur centered at the region of interest.
       const center = [ymin + height / 2, xmin + width / 2]
+      const sigma_factor = 0.05
+      const SIGMA = Math.sqrt(height * width) * sigma_factor
       const gaussTensor = np.gauss(image.shape, center, SIGMA)
       const gaussCrop = gaussTensor.slice([ymin, xmin], [height, width])
 
